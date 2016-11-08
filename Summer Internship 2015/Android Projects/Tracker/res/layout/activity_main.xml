@@ -1,0 +1,331 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/idbg"
+    android:orientation="vertical">
+    
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.05"
+    android:layout_margin="4dp"
+    android:orientation="horizontal">
+    
+           <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"
+            android:src="@drawable/logosmall" />
+
+         <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.7"
+            android:layout_gravity="center"
+            android:src="@drawable/vento" />
+        
+  </LinearLayout>
+  
+  
+    <!-- 2nd .. photo -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_margin="2dp"
+        android:orientation="horizontal" >
+        
+
+        <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:layout_marginLeft="10dp"    
+        android:background="@drawable/photobackground">
+
+         <ImageView
+         android:id="@+id/imageView"
+         android:visibility="gone"
+         android:layout_gravity="center"
+         android:layout_width="100dp"
+         android:layout_height="match_parent"/>
+ 
+         <ProgressBar    
+         android:id="@+id/progressBar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center" />
+        
+        </FrameLayout>
+      <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:orientation="vertical" >
+         
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.95"
+        android:gravity="center|bottom"
+        android:layout_margin="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/usernametext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="" />
+        
+        </LinearLayout>
+        
+         <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.05"
+          android:background="@drawable/background"
+          android:paddingLeft="10dp"
+          android:gravity="center|left"
+          android:orientation="vertical" >
+                 
+
+        <TextView
+            android:id="@+id/designationtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#6e6e6e"
+            android:text="" />
+        
+         <TextView
+            android:id="@+id/empIDtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6e6e6e"
+            android:text="" />
+         
+           </LinearLayout>
+         
+         </LinearLayout>
+         
+    </LinearLayout>
+    
+    
+      <!-- 3rd .. details-->
+
+    
+      
+      <!-- 3rd main -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical" >
+        
+        <!-- 3...1st horizontal -->
+        
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:orientation="horizontal" >
+         
+             <!-- 3rd 1st horizontal 1st part -->
+        
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+       
+         <TextView
+            android:id="@+id/co"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11dp"
+            android:textColor="#6e6e6e"
+            android:text="PHONE NO." />
+         
+         <TextView
+            android:id="@+id/contactnotext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#6e6e6e"
+            android:text="" />
+         
+       </LinearLayout>
+       
+        
+             <!-- 3rd 1st horizontal 2nd part -->
+       
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+         
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+        
+          <TextView
+            android:id="@+id/st"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11dp"
+            android:textColor="#6e6e6e"
+            android:text="WORKING HOURS" />
+          
+          </LinearLayout>
+         
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+  
+         
+        
+        <TextView
+            android:id="@+id/starttimetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textStyle="bold"
+            android:textColor="#6e6e6e"
+            android:text="" />
+        
+         <TextView
+            android:id="@+id/startttimetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textColor="#6e6e6e"
+            android:text=" to " />
+        
+         <TextView
+            android:id="@+id/endtimetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textStyle="bold"
+            android:textColor="#6e6e6e"
+            android:text="" />
+         
+      
+        </LinearLayout>
+        
+              
+        </LinearLayout>
+        
+        </LinearLayout>
+        
+         
+         
+           <!-- 3rd 2nd horizontal  -->
+         
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+        
+              <TextView
+            android:id="@+id/pl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11dp"
+            android:textColor="#6e6e6e"
+            android:text="ADDRESS" />
+         
+        
+                 
+         <TextView
+            android:id="@+id/placetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#6e6e6e"
+            android:text="" />
+        
+                
+        </LinearLayout>
+        
+      <!-- 3rd 3rd horizontal  -->
+        
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+        
+         
+          <TextView
+            android:id="@+id/pa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11dp"
+            android:textColor="#6e6e6e"
+            android:text="PASSWORD" />
+         
+         <TextView
+            android:id="@+id/passwordtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#6e6e6e"
+            android:text="" />
+                
+        </LinearLayout>
+         
+   </LinearLayout>
+        
+    
+  <View 
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#e6e6e6"/>
+  
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="15dp"
+    android:background="#ffffff"
+    android:layout_weight="0.2"
+    android:gravity="center"
+    android:padding="2dp"
+    android:orientation="vertical">
+
+         <TextView
+           android:id="@+id/textView1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:textSize="12dp"
+            android:textColor="#6e6e6e"
+           android:text="Head Office: 303 | Pentagon Tower-2 | Magarpatta City | Hadapsar Pune-13 | Maharashtra | India" />
+           
+           
+           
+</LinearLayout>
+    
+ 
+</LinearLayout>
+     

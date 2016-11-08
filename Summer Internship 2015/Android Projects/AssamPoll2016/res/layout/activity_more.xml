@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:id="@+id/dialoglayout"
+    android:orientation="vertical" >
+
+             
+ <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_weight="0.2" > 
+            
+                    
+        <Button
+            android:id="@+id/politicalparties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:onClick="politicalparties"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/politicalparties"
+            android:drawablePadding="5dp"
+            android:textColor="#009966"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:text="POLITICAL\nPARTIES" />
+        
+        
+   </LinearLayout>
+        
+ 
+        <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#e6e6e6"/>
+        
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_weight="0.2" > 
+
+        <Button
+            android:id="@+id/latestupdates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="updates"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:textColor="#009966"
+            android:textSize="12dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/news"
+            android:textStyle="bold"
+            android:text="LATEST\nUPDATES" />
+        
+        </LinearLayout>
+
+              <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#e6e6e6"/>
+              
+               <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_weight="0.2" > 
+
+        <Button
+            android:id="@+id/survey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="survey"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:textColor="#009966"
+            android:textSize="12dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/survey"
+            android:textStyle="bold"
+            android:text="SURVEY" />
+        
+
+        </LinearLayout>
+             
+        <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#e6e6e6"/>
+
+       <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_weight="0.2" > 
+                         
+         <Button
+            android:id="@+id/shareapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="shareapp"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:textColor="#009966"
+            android:drawablePadding="5dp"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/share"
+            android:textStyle="bold"
+            android:text="SHARE APP" />
+         
+         
+         </LinearLayout>
+             
+               <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#e6e6e6"/>
+
+               
+                <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_weight="0.2" > 
+    
+         
+         <Button
+            android:id="@+id/aboutus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:onClick="aboutus"
+            android:background="#ffffff"
+            android:textColor="#009966"
+            android:textSize="12dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/about"
+            android:textStyle="bold"
+            android:text="ABOUT US" />
+       
+         </LinearLayout>
+       
+
+                
+</LinearLayout>
+
+
+            

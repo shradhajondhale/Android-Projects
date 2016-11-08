@@ -1,0 +1,1377 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_margin="10dp">
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.maverick.assampoll2016.News" >
+  
+        
+        
+        <!-- 1 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+           
+       <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView1"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+
+           <TextView
+               android:id="@+id/h1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="Abdur Rashid Mandal"
+               android:textColor="#1E90FF"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+            <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+           
+             <TextView
+         android:id="@+id/t1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+        
+</LinearLayout>
+<!-- 1 end -->
+
+
+ <!-- 2 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+        
+                <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+      <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView2"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+           
+           <TextView
+         android:id="@+id/h2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+               android:text="Abdur Rashid Mandal"
+          android:textColor="#1E90FF"
+         android:textSize="10dp"
+         android:layout_weight="80"/>
+           
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+             <TextView
+         android:id="@+id/t2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                 android:padding="5dp"
+                 android:background="#ecf9ff"/>
+            
+        </LinearLayout>
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+        
+</LinearLayout>
+<!-- 2 end -->
+
+
+
+ <!-- 3 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+     >
+        
+                <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+     <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView3"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+           
+           <TextView
+         android:id="@+id/h3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+               android:text="Abdur Rashid Mandal"
+         android:textColor="#1E90FF"
+         android:textSize="10dp"
+         android:layout_weight="80"/>
+           
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+             <TextView
+         android:id="@+id/t3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n3"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:padding="5dp"
+                 android:textStyle="italic" 
+                 android:background="#ecf9ff"/>
+            
+        </LinearLayout>
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+</LinearLayout>
+<!-- 3 end -->
+
+
+
+ <!-- 4 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+     >
+        
+                <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+     <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView4"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+           
+           <TextView
+         android:id="@+id/h4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+               android:text="Abdur Rashid Mandal"
+        android:textColor="#1E90FF"
+               android:textSize="10dp"
+         android:layout_weight="80"/>
+           
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+             <TextView
+         android:id="@+id/t4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+          <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n4"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                 android:padding="5dp"
+                 android:background="#ecf9ff"/>
+            
+        </LinearLayout>
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+        
+</LinearLayout>
+<!-- 4 end -->
+
+
+
+ <!-- 5 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+        
+                <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+                
+     <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView5"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+           
+           <TextView
+         android:id="@+id/h5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+               android:text="Abdur Rashid Mandal"
+        android:textColor="#1E90FF"
+               android:textSize="10dp"
+         android:layout_weight="80"/>
+           
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+             <TextView
+         android:id="@+id/t5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n5"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic"
+                 android:padding="5dp" 
+                 android:background="#ecf9ff"/>
+            
+        </LinearLayout>
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+</LinearLayout>
+<!-- 5 end -->
+
+
+  
+        <!-- 1 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+    <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView6"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+           <TextView
+               android:id="@+id/h6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="Abdur Rashid Mandal"
+                android:textColor="#1E90FF"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+           
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+             <TextView
+         android:id="@+id/t6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n6"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic"
+                 android:padding="5dp"
+                 android:background="#ecf9ff" />
+            
+        </LinearLayout>
+        
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+        
+</LinearLayout>
+<!-- 6 end -->
+
+
+  
+        <!-- 1 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+    >
+           
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+      <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView7"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+
+           <TextView
+               android:id="@+id/h7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="Abdur Rashid Mandal"
+                android:textColor="#1E90FF"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+             <TextView
+         android:id="@+id/t7"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n7"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic"
+                 android:padding="5dp" 
+                 android:background="#ecf9ff"/>
+            
+        </LinearLayout>
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re7"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav7"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+        
+</LinearLayout>
+<!-- 7 end -->
+
+
+  
+        <!-- 1 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+   >
+           
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+       <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView8"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+
+           <TextView
+               android:id="@+id/h8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="Abdur Rashid Mandal"
+                android:textColor="#1E90FF"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+             <TextView
+         android:id="@+id/t8"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n8"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic"
+                 android:padding="5dp"
+                 android:background="#ecf9ff" />
+            
+        </LinearLayout>
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re8"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav8"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+        
+</LinearLayout>
+<!-- 8 end -->
+
+
+  
+        <!-- 1 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+      >
+           
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+       <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView9"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+
+           <TextView
+               android:id="@+id/h9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="Abdur Rashid Mandal"
+              android:textColor="#1E90FF"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+             <TextView
+         android:id="@+id/t9"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n9"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic"
+                 android:padding="5dp"
+                 android:background="#ecf9ff" />
+            
+        </LinearLayout>
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re9"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav9"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+        
+</LinearLayout>
+<!-- 9 end -->
+
+
+  
+        <!-- 1 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+        >
+           
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+      <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:weightSum="200"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imageView10"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_weight="20"
+               android:layout_margin="5dp"
+               android:src="@drawable/ic_launcher" />
+
+           <TextView
+               android:id="@+id/h10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="Abdur Rashid Mandal"
+              android:textColor="#1E90FF"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+           
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="80"
+               android:fontFamily="sans-serif-medium"
+               android:text="  "
+               android:textColor="#9AE4E8"
+               android:textSize="10dp"
+               android:textStyle="bold" />
+             <TextView
+         android:id="@+id/t10"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n10"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic"
+                 android:padding="5dp" 
+                 android:background="#ecf9ff"/>
+            
+        </LinearLayout>
+        
+           
+      <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:orientation="horizontal">
+            
+             <TextView
+                 android:id="@+id/re10"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="124"
+                 android:drawableLeft="@drawable/retweet"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             <TextView
+                 android:id="@+id/fav10"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:padding="5dp"
+                 android:text="123"
+                 android:drawableLeft="@drawable/favorite"
+                 android:textSize="15dp"
+                 android:textStyle="italic" 
+                android:background="#ecf9ff"/>
+             
+             
+            
+        </LinearLayout>
+        
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#e6e6e6"/>
+        
+</LinearLayout>
+<!-- 10 end -->
+
+
+
+</LinearLayout>   
+</ScrollView>

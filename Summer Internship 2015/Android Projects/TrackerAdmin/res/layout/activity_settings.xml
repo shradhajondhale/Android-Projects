@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.maverick.trackeradmin.Settings" >
+
+    <View android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#e6e6e6"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="addmember"
+    android:padding="10dp"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="New Member" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#6e6e6e"
+        android:text="Add a member to track him/her" />
+    
+    </LinearLayout>
+    
+     <View android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#e6e6e6"/>
+     
+     
+     <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:onClick="interval"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Interval" />
+    
+    <TextView
+        android:id="@+id/intervaltext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#6e6e6e"
+        android:text="Select a time interval to list the locations" />
+    
+    </LinearLayout>
+    
+     <View android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#e6e6e6"/>
+     
+     
+     <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:onClick="aboutus"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        android:text="About Us" />
+    
+  
+    </LinearLayout>
+    
+     <View android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#e6e6e6"/>
+
+</LinearLayout>

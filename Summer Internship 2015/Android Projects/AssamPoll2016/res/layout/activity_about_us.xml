@@ -1,0 +1,266 @@
+  <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="5dp"
+       android:background="#E3E6E7"
+       tools:context="com.maverick.assampoll2016.AboutUs" >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    
+    <LinearLayout  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:src="@drawable/logosmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In association with" />
+    
+        <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:src="@drawable/vento" />
+
+    
+   </LinearLayout>
+   
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e6e6e6"/>
+    
+    <LinearLayout  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/shareapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="shareapp"
+            android:gravity="left|center"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:drawableLeft="@drawable/shareicon"
+            android:text="Share" />
+        
+        
+           
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e6e6e6"/>
+        
+        <Button
+            android:id="@+id/website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="website"
+            android:gravity="left|center"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:drawableLeft="@drawable/webicon"
+            android:text="Website" />
+        
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e6e6e6"/>
+        
+         
+        
+       
+            <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="map"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:drawableLeft="@drawable/mlocationicon"
+            android:text="Locate on map" />
+            
+             <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e6e6e6"/>
+        
+        
+        
+        <Button
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="facebook"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:drawableLeft="@drawable/iconfacebook"
+            android:text="Like us" />
+     
+        
+      <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e6e6e6"/>
+         
+        
+          <Button
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="twitter"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:drawableLeft="@drawable/twittericon"
+            android:text="Tweet us" />
+        
+        
+      <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:textColor="#AFAFAF"
+        android:gravity="center"
+        android:text="Regd. office: Maverick IT Enable Services Pvt Ltd | 303 | Pentagon Tower-2 | Magarpatta City | Pune-13 | Maharashtra | India" />
+
+        
+       
+       
+       <TextView
+        android:id="@+id/contactemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#AFAFAF"
+        android:gravity="center"
+        android:text="Email: contact@spmaverick.com"/>
+       
+       <TextView
+        android:id="@+id/contactnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#AFAFAF"
+        android:gravity="center"
+        android:text="Phone: +91 98540 09008" />
+       
+        <TextView
+        android:id="@+id/websitetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#AFAFAF"
+        android:gravity="center"
+        android:text="Website: www.spmaverick.com" />
+       
+      
+       
+          
+         
+                
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e6e6e6"/>
+        
+     
+        
+    </LinearLayout>
+    
+     <LinearLayout  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
+       
+       <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:textColor="#003054"
+        android:layout_weight="0.1"
+        android:fontFamily="sans-serif-light"
+        android:text="DEVELOPERS : " />
+    
+     
+       <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#003054"
+        android:layout_weight="0.9"
+        android:textSize="12dp"
+        android:text="Arpit Padwekar\nShradha Jondhale\nand Team" />
+        
+    </LinearLayout>
+    
+
+    <LinearLayout  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_marginTop="5dp">
+  
+       
+        <TextView
+        android:id="@+id/copyrights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="© 2015 Maverick IT" />
+        
+    </LinearLayout>
+    
+    
+</LinearLayout>
+
+</ScrollView>

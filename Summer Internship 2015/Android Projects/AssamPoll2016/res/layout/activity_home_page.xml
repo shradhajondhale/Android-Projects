@@ -1,0 +1,798 @@
+
+       
+<!-- main layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp" >
+  
+           
+<!-- title layout -->
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:padding="5dp"
+    android:layout_margin="2dp" 
+    android:layout_weight="0.1">
+
+    
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Assam Poll 2016"/>
+    
+    
+    <Button
+        android:id="@+id/districtgraph"
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        android:textSize="12dp"
+        android:onClick="myareapage"
+        android:background="@drawable/buttonselector"
+        android:textColor="#ffffff"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="My Constituency"/>
+    
+
+    
+  </LinearLayout>
+  
+<!-- main graph layout -->
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:id="@+id/graphlayout"
+    android:layout_margin="2dp"
+    android:background="@drawable/assammapfinal1" 
+    android:layout_weight="0.8">
+    
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="0.1">
+
+        <TextView
+            android:id="@+id/titlea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#6e6e6e"
+            android:paddingLeft="2dp"
+            android:text="#assam" />
+    
+        </LinearLayout>
+    
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="0.85">
+
+<!-- party 1 layout --> 
+    
+    <LinearLayout
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:layout_weight="0.1666">
+
+  
+   
+        <!-- 1 upper layout --> 
+        <LinearLayout
+        android:id="@+id/up1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        </LinearLayout>
+
+         <!-- 1 lower layout> #0F823F--> 
+     <LinearLayout
+        android:id="@+id/lp1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/congressdrawable">
+     </LinearLayout>
+ 
+    
+</LinearLayout>
+
+   <!-- party bjp layout> --> 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:layout_weight="0.1666">
+        
+        <!--bjp upper layout> --> 
+        <LinearLayout
+        android:id="@+id/up2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        </LinearLayout>
+      
+    <!-- bjp lower layout> #F48222--> 
+    <LinearLayout
+        android:id="@+id/lp2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bjpdrawable">
+    </LinearLayout>
+    
+</LinearLayout>
+
+           <!-- party aiudf layout> --> 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:layout_weight="0.1666">
+        
+        <!-- aiudf upper layout> --> 
+        <LinearLayout
+        android:id="@+id/up5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        </LinearLayout>
+       
+      <!-- aiudf lower layout> --> 
+    <LinearLayout
+        android:id="@+id/lp5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aiudfdrawable">
+    </LinearLayout>
+    
+</LinearLayout>
+    
+    <!-- party 4 layout> --> 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:layout_weight="0.1666">
+        
+        <!-- 4 upper layout> --> 
+        <LinearLayout
+        android:id="@+id/up4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        </LinearLayout>
+        
+
+        
+    <!-- 4 lower layout> #A10807--> 
+    <LinearLayout
+        android:id="@+id/lp4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/agpdrawable">
+    </LinearLayout>
+    
+</LinearLayout>
+
+
+
+    
+    
+    <!-- party 3 layout> --> 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:layout_weight="0.1666">
+        
+        <!-- 3 upper layout> --> 
+        <LinearLayout
+        android:id="@+id/up3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        </LinearLayout>
+        
+
+
+      
+    <!-- 3 lower layout> #90C44A--> 
+    <LinearLayout
+        android:id="@+id/lp3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aapdrawable">
+    </LinearLayout>
+    
+</LinearLayout>
+    
+
+       <!-- party 6 layout> --> 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:layout_weight="0.1666">
+        
+      <!--6 upper layout> --> 
+        <LinearLayout
+        android:id="@+id/up6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        </LinearLayout>
+
+        
+    
+         <!-- 6 lower layout>#8F5A5A --> 
+    <LinearLayout
+        android:id="@+id/lp6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/othersdrawable">
+    </LinearLayout>
+    
+
+    
+</LinearLayout> <!-- party 6 layout -->
+    
+
+    
+</LinearLayout> <!-- graph layout -->
+
+<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4DB894"/>
+<!--  
+<View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e6e6e6"/>-->
+<!-- buttons layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.05"
+    android:gravity="center|top"
+    android:background="@drawable/congressflag"
+    android:orientation="horizontal" >
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="0.1666">
+    
+
+     <!-- text 2--> 
+        <TextView
+        android:id="@+id/vcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_weight="0.2"
+        android:text="..."/>
+
+    
+    <Button
+        android:id="@+id/bcon"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:onClick="votecon"
+        android:background="@drawable/congressbnw"
+        android:fontFamily="sans-serif-light"/>
+    
+   
+        <TextView
+        android:id="@+id/context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="10dp"
+        android:text="INC"/>
+        
+        <TextView
+        android:id="@+id/fbcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="8dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/fb"
+        android:text="INC"/>
+   
+    
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:layout_weight="0.1666">
+      
+        
+     <!-- text 3--> 
+        <TextView
+        android:id="@+id/vbjp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_weight="0.2"
+        android:text="..."/>
+        
+    <Button
+        android:id="@+id/bbjp"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:onClick="votebjp"
+        android:background="@drawable/bjpbnw"
+        android:fontFamily="sans-serif-light"/>
+    
+  
+    
+    <TextView
+        android:id="@+id/bjptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="10dp"
+        android:text="BJP"/>
+    
+    <TextView
+        android:id="@+id/fbbjp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="8dp"
+         android:gravity="center"
+        android:drawableLeft="@drawable/fb"
+        android:text="BJP"/>
+  
+    
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:layout_weight="0.1666">
+    
+    <!-- text 5--> 
+        <TextView
+        android:id="@+id/vaiudf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:text="..."/>
+
+    <Button
+        android:id="@+id/baiudf"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:onClick="voteaiudf"
+        android:background="@drawable/aiudfbnw"
+        android:fontFamily="sans-serif-light"/>
+  
+      
+        <TextView
+        android:id="@+id/aiudftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="10dp"
+        android:text="AIUDF"/>
+   
+         <TextView
+        android:id="@+id/fbaiudf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="8dp"
+         android:gravity="center"
+        android:drawableLeft="@drawable/fb"
+        android:text="AIUDF"/>
+   
+    
+</LinearLayout>
+
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:layout_weight="0.1666">
+    
+        
+     <!-- text 5--> 
+        <TextView
+        android:id="@+id/vagp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="..."/>
+    
+    <Button
+        android:id="@+id/bagp"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:onClick="voteagp"
+        android:background="@drawable/agpbnw"
+        android:fontFamily="sans-serif-light"/>
+    
+    
+    <TextView
+        android:id="@+id/agptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="10dp"
+        android:text="AGP"/>
+    
+      <TextView
+        android:id="@+id/fbagp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="8dp"
+         android:gravity="center"
+        android:drawableLeft="@drawable/fb"
+        android:text="AGP"/>
+   
+     
+</LinearLayout>
+
+
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:layout_weight="0.1666">
+    
+       <!-- text 4--> 
+        <TextView
+        android:id="@+id/vaap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_weight="0.2"
+        android:text="..."/>
+        
+    <Button
+        android:id="@+id/baap"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:fontFamily="sans-serif-light"
+        android:background="@drawable/aapbnw"
+        android:onClick="voteaap"/>
+
+    
+    
+        <TextView
+        android:id="@+id/aaptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="10dp"
+        android:text="AAP"/>
+        
+        <TextView
+        android:id="@+id/fbaap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:textSize="8dp"
+         android:gravity="center"
+        android:drawableLeft="@drawable/fb"
+        android:text="AAP"/>
+  
+      
+</LinearLayout>
+
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:layout_weight="0.1666">
+    
+
+        <TextView
+        android:id="@+id/vothers"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-light"
+        android:text="..."/>
+        
+    <Button
+        android:id="@+id/bothers"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:onClick="voteoth"
+        android:background="@drawable/othersbnw"
+        android:fontFamily="sans-serif-light"/>
+ 
+      
+        <TextView
+        android:id="@+id/otherstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textSize="10dp"
+        android:text="Other\nParties"/>
+        
+        <TextView
+        android:id="@+id/otherstext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textSize="8dp"
+        android:text=""/>
+        
+    
+</LinearLayout>
+
+</LinearLayout>
+
+<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4DB894"/>
+</LinearLayout> <!-- graph closed -->
+
+
+
+    <!-- bottom layout -->
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_weight="0.1">
+
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="0.6">
+    
+      <TextView
+        android:id="@+id/text"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+         android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This Week.."/>
+        
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+      
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        
+         
+         <TextView
+        android:id="@+id/prevdaycon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="..."/>
+         
+         
+         
+         <TextView
+        android:id="@+id/prevdaybjp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="..."/>
+         
+ 
+      <TextView
+        android:id="@+id/prevdayaiudf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="..."/>
+         
+         <TextView
+        android:id="@+id/prevdayagp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="..."/>
+         
+    
+         
+       <TextView
+        android:id="@+id/prevdayaap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="..."/>
+         
+         <TextView
+        android:id="@+id/prevdayothers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="..."/>
+
+ </ViewFlipper>
+ </LinearLayout>
+
+    </LinearLayout>
+        
+       <!--  
+        <View
+         android:layout_height="match_parent"
+         android:layout_width="0.03dp"
+         android:background="#e6e6e6"/>--> 
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    android:layout_weight="0.4">
+        
+           <Button
+        android:id="@+id/sharevotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:fontFamily="sans-serif-light"
+        android:background="@drawable/buttonselector"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SHARE"
+        android:textSize="12dp"
+        android:drawablePadding="3dp"
+        android:onClick="sharevotes"/>
+           
+   </LinearLayout>
+    
+    
+    
+  </LinearLayout>
+  
+
+<!-- ad layout -->
+
+<LinearLayout
+ android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:orientation="vertical"
+    android:layout_weight="0.05"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:onClick="adclick"
+        />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>  <!-- main layout -->

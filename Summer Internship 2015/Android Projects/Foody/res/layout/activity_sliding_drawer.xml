@@ -1,0 +1,252 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"    
+    android:layout_width="225dp"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:context="com.maverick.foody.SlidingDrawer">
+
+<LinearLayout 
+    android:layout_width="225dp"
+    android:layout_height="wrap_content"
+    android:background="#CC000000"
+    android:orientation="vertical" >
+
+   
+    
+    <View 
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:background="@android:color/transparent"/>
+    
+     <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:text="CUISINE FILTERS" />
+     
+     <View 
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#ffffff"/>
+    
+     
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+         <RadioButton
+             android:id="@+id/radioButton1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffffff"
+             android:textSize="12dp"
+             android:text="ALL" />
+         
+         <CheckBox
+         android:id="@+id/checkBox1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#ffffff"
+         android:textSize="12dp"
+         android:text="CHINESE" />   
+         
+         <CheckBox
+         android:id="@+id/checkBox2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#ffffff"
+         android:textSize="12dp"
+         android:text="DESSERTS" /> 
+         
+         <CheckBox
+         android:id="@+id/checkBox3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#ffffff"
+         android:textSize="12dp"
+         android:text="FAST FOOD" />     
+         
+          <CheckBox
+         android:id="@+id/checkBox4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#ffffff"
+         android:textSize="12dp"
+         android:text="MULTI-CUISINE" />     
+         
+     </LinearLayout>
+     
+     <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:text="SORT BY" />
+     
+     <View 
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#ffffff"/>
+    
+     
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+          
+         <RadioGroup 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+          
+         <RadioButton
+             android:id="@+id/radio1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffffff"
+             android:textSize="12dp"
+             android:text="RELEVANCE" 
+             android:checked="true" />
+
+         <RadioButton
+             android:id="@+id/radio2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffffff"
+             android:textSize="12dp"
+             android:text="RATING (+)" />
+         
+          <RadioButton
+             android:id="@+id/radio3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffffff"
+             android:textSize="12dp"
+             android:text="RATING (-)" />
+          
+           <RadioButton
+             android:id="@+id/radio4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffffff"
+             android:textSize="12dp"
+             android:text="ALPHABETICALLY" />
+           
+            <RadioButton
+             android:id="@+id/radio5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffffff"
+             android:textSize="12dp"
+             android:text="DELIVERY TIME" />
+            
+             <RadioButton
+             android:id="@+id/radio6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffffff"
+             android:textSize="12dp"
+             android:text="DELIVERY FEE" />
+             
+              <RadioButton
+             android:id="@+id/radio7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffffff"
+             android:textSize="12dp"
+             android:text="MIN. ORDER" />
+              
+        </RadioGroup>
+              
+     </LinearLayout>
+     
+      <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp">
+              
+        <ImageView 
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:paddingRight="5dp"
+        android:src="@drawable/cart"/>
+      
+        <TextView
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:textSize="12dp"
+        android:text="MY CART" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp">
+              
+        <ImageView 
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:paddingRight="5dp"
+        android:src="@drawable/accountdetails"/>
+      
+        <TextView
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:textSize="12dp"
+        android:text="ACCOUNT DETAILS" />
+        
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp">
+              
+        <ImageView 
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:paddingRight="5dp"
+        android:src="@drawable/settings"/>
+      
+        <TextView
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:paddingLeft="5dp"
+        android:text="SETTINGS" />
+        
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

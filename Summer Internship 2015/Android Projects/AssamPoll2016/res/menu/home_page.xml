@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.maverick.assampoll2016.HomePage" >
+
+  
+    
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always"/>
+    
+    
+    
+    <item
+        android:id="@+id/more"
+        android:orderInCategory="100"
+        android:title="More"
+        android:icon="@drawable/more"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:paddingLeft="15dp"
+   android:paddingRight="15dp"
+   android:descendantFocusability="beforeDescendants">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listitembg"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="horizontal" >
+   
+  
+
+  
+    <!-- hotel detsils layout 0.7 --> 
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="0.7"
+    android:gravity="left|center"
+    android:orientation="vertical" >
+        
+       <LinearLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="0.7"
+       android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/resname"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#85153B"
+             android:textSize="18sp"
+             android:fontFamily="sans-serif-thin"
+             android:textStyle="bold"
+             android:padding="5dp"
+             android:text="Name" />
+         
+          <TextView
+             android:id="@+id/restype"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#6e6e6e"
+             android:fontFamily="sans-serif"
+             android:padding="5dp"
+             android:text="Type" />
+         
+           <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+         
+         <RatingBar
+           android:id="@+id/ratingbar"
+           android:layout_width="wrap_content" 
+           style="?android:attr/ratingBarStyleSmall"
+           android:layout_height="wrap_content" 
+           android:numStars="5"
+           android:stepSize="0.5"
+           android:rating="3.5" />
+         
+          <TextView
+             android:id="@+id/resratings"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#85153B"
+             android:textSize="10sp"
+             android:paddingLeft="5dp"
+             android:fontFamily="sans-serif"
+             android:text="3.5" />
+          
+         </LinearLayout>
+         
+          <TextView
+             android:id="@+id/restimings"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#6e6e6e"
+             android:textSize="12sp"
+             android:paddingLeft="5dp"
+             android:fontFamily="sans-serif"
+             android:text="Timings" />
+         
+      
+        
+        </LinearLayout>
+        
+       <RelativeLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="0.2"
+       android:padding="5dp"
+       android:gravity="center" >
+          
+         <TextView
+           android:id="@+id/deliverycharges"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#6e6e6e"
+           android:fontFamily="sans-serif"
+           android:text="Del Charges" />
+        
+        
+       <TextView
+           android:id="@+id/deliverytime"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/deliverycharges"
+           android:textColor="#6e6e6e"
+           android:fontFamily="sans-serif"
+           android:textSize="13sp"
+           android:text="Del Time" />
+         
+   
+      </RelativeLayout>
+      
+        <LinearLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="0.1"
+       android:layout_gravity="left"
+       android:gravity="center"
+       android:orientation="horizontal" >
+        
+             <TextView
+           android:id="@+id/mindeliverycost"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#6e6e6e"
+           android:fontFamily="sans-serif"
+           android:textSize="10sp"
+           android:paddingLeft="5dp"
+           android:text="Min Del Cost" />
+        </LinearLayout>
+    
+    </LinearLayout>
+    
+   
+     <!-- hotel image layout 0.3 -->
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="0.3"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/resphoto"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/a" />
+    
+    </LinearLayout>
+   
+   
+
+</LinearLayout>
+</FrameLayout>

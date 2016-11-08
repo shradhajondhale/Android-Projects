@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/congressflag"
+    android:gravity="center">
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:layout_weight="0.2">
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center"
+    android:layout_weight="0.1">
+    
+    <Button
+        android:id="@+id/con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="con"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonselector"
+         android:layout_weight="0.5"
+        android:textSize="12dp"
+        android:padding="10dp"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/congresscolor"
+         android:fontFamily="sans-serif-light"
+        android:text="Indian National\nCongress" />
+    
+    
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="5dp"
+        android:background="@android:color/transparent"/>
+    
+    <Button
+        android:id ="@+id/bjp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="bjp"
+         android:textColor="#ffffff"
+        android:background="@drawable/buttonselector"
+         android:layout_weight="0.5"
+        android:drawableTop="@drawable/bjpcolor"
+         android:drawablePadding="5dp"
+        android:textSize="12dp"
+        android:padding="10dp"
+         android:fontFamily="sans-serif-light"
+        android:text="Bharatiya Janata\nParty" />
+    
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"/>
+    
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center"
+    android:layout_weight="0.1">
+    
+    <Button
+        android:id ="@+id/aap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="aap"
+         android:textColor="#ffffff"
+        android:background="@drawable/buttonselector"
+        android:drawableTop="@drawable/aapcolor"
+         android:drawablePadding="5dp"
+        android:textSize="12dp"
+        android:padding="10dp"
+         android:fontFamily="sans-serif-light"
+         android:layout_weight="0.5"
+        android:text="Aam Aadmi\nParty" />
+    
+    
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="5dp"
+        android:background="@android:color/transparent"/>
+  
+    <Button
+        android:id ="@+id/agp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="agp"
+         android:textColor="#ffffff"
+       android:background="@drawable/buttonselector"
+        android:textSize="12dp"
+        android:padding="10dp"
+        android:drawableTop="@drawable/agpcolor"
+         android:drawablePadding="5dp"
+         android:fontFamily="sans-serif-light"
+         android:layout_weight="0.5"
+        android:text="Assam Gana\nParishad" />
+    
+  </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"/>
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center"
+    android:layout_weight="0.1">
+    
+    <Button
+        android:id ="@+id/aiudf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="aiudf"
+         android:textColor="#ffffff"
+        android:background="@drawable/buttonselector"
+        android:drawableTop="@drawable/aiudfcolor"
+         android:drawablePadding="5dp"
+        android:textSize="12dp"
+        android:padding="10dp"
+         android:fontFamily="sans-serif-light"
+        android:text="All India United Democratic Front" />
+    
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"/>
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:layout_weight="0.5">
+    </LinearLayout>
+    
+    
+    
+    
+   
+    
+</LinearLayout>
+
+

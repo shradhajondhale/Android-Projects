@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.maverick.foody.FoodAroundMe" >
+
+    <ListView
+        android:id="@+id/restaurentslist"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:listSelector="@android:color/transparent" 
+        android:cacheColorHint="@android:color/transparent"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true">
+
+    </ListView>
+    
+   
+    <!--  
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="bottom"
+     android:gravity="right"
+     android:layout_marginBottom="35dp"    
+     android:layout_marginRight="20dp"
+     android:orientation="horizontal">
+
+      <ImageButton
+            android:id="@+id/basket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cart"
+            android:background="@drawable/button"
+            android:padding="15dp" />
+        
+    </LinearLayout>
+-->
+ 
+
+</FrameLayout>

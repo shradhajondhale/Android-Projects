@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/congressflag"
+    android:gravity="center">
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@android:color/transparent"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:gravity="center">
+        
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/ic_launcher" />
+    
+      
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Welcome to"
+        android:textSize="28dp"
+        android:paddingTop="5dp"
+        android:textColor="#009966"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Assam Poll"
+        android:textSize="50dp"
+        android:textColor="#009966"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2016"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="#009966"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:gravity="center">
+    
+        
+         <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Maverick IT"
+        android:textSize="20dp"
+        android:textColor="#009966"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Training | Development | Outsourcing"
+        android:textSize="15dp"
+        android:textColor="#009966"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+  
+    
+       
+
+    </LinearLayout>
+    
+</LinearLayout>
+

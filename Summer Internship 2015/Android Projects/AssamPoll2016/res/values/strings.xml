@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assam Poll 2016</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_verification">Verification</string>
+    <string name="title_activity_home_page">Assam Poll 2016</string>
+    <string name="title_activity_my_area_page">My Constituency</string>
+    <string name="title_activity_survey">Survey</string>
+    <string name="title_activity_network_connection">Network Connection</string>
+    <string name="title_activity_assam_political_parties">Assam Political Parties</string>
+    <string name="title_activity_party">Assam Political Parties</string>
+    <string name="title_activity_news">Latest Updates</string>
+    <string name="title_activity_more">More</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_flash_ad">FlashAd</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>

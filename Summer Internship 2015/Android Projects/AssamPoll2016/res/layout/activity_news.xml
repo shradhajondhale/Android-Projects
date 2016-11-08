@@ -1,0 +1,419 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_margin="10dp">
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.maverick.assampoll2016.News" >
+  
+        
+        
+        <!-- 1 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="5dp"
+           android:background="@drawable/backgroundbox"
+           android:onClick="one">
+           
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           
+           <TextView
+         android:id="@+id/h1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+         android:textSize="20dp"
+         android:text="Heading" 
+         android:textColor="#009966"
+         android:layout_weight="80"/>
+           
+           
+             <TextView
+         android:id="@+id/t1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:gravity="right|top"
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic" />
+            
+        </LinearLayout>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        
+        
+</LinearLayout>
+<!-- 1 end -->
+<View
+             android:layout_width="match_parent"
+             android:layout_height="5dp"
+             android:background="@android:color/transparent"/>
+
+ <!-- 2 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="5dp"
+           android:background="@drawable/backgroundbox"
+           android:onClick="two">
+        
+                <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           
+           <TextView
+         android:id="@+id/h2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+         android:textSize="20dp"
+         android:text="Heading" 
+         android:textColor="#009966"
+         android:layout_weight="80"/>
+           
+           
+             <TextView
+         android:id="@+id/t2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:gravity="right"
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic" />
+            
+        </LinearLayout>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+
+</LinearLayout>
+<!-- 2 end -->
+
+<View
+             android:layout_width="match_parent"
+             android:layout_height="5dp"
+             android:background="@android:color/transparent"/>
+
+ <!-- 3 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="5dp"
+           android:background="@drawable/backgroundbox"
+           android:onClick="three">
+        
+                <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           
+           <TextView
+         android:id="@+id/h3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+         android:textSize="20dp"
+         android:text="Heading" 
+         android:textColor="#009966"
+         android:layout_weight="80"/>
+           
+           
+             <TextView
+         android:id="@+id/t3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:gravity="right"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n3"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic" />
+            
+        </LinearLayout>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+        
+</LinearLayout>
+<!-- 3 end -->
+
+<View
+             android:layout_width="match_parent"
+             android:layout_height="5dp"
+             android:background="@android:color/transparent"/>
+
+ <!-- 4 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="5dp"
+           android:background="@drawable/backgroundbox"
+           android:onClick="four">
+        
+                <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           
+           <TextView
+         android:id="@+id/h4"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+         android:textSize="20dp"
+         android:text="Heading" 
+         android:textColor="#009966"
+         android:layout_weight="80"/>
+           
+           
+             <TextView
+         android:id="@+id/t4"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:gravity="right"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+          <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n4"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic" />
+            
+        </LinearLayout>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+        
+   
+</LinearLayout>
+<!-- 4 end -->
+
+<View
+             android:layout_width="match_parent"
+             android:layout_height="5dp"
+             android:background="@android:color/transparent"/>
+
+ <!-- 5 -->
+        
+        
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="5dp"
+           android:background="@drawable/backgroundbox"
+           android:onClick="five">
+        
+                <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+           
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           
+           <TextView
+         android:id="@+id/h5"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+         android:textStyle="bold"
+         android:textSize="20dp"
+         android:text="Heading" 
+         android:textColor="#009966"
+         android:layout_weight="80"/>
+           
+           
+             <TextView
+         android:id="@+id/t5"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="10dp"
+         android:text="time" 
+         android:gravity="right"
+         android:fontFamily="sans-serif-light"
+         android:textColor="#6e6e6e"
+         android:layout_weight="20"/>
+           
+           
+       </LinearLayout>
+       
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             android:background="@android:color/transparent"/>
+         
+        <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+            
+             <TextView
+                 android:id="@+id/n5"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="sans-serif-light"
+                 android:text="News"
+                 android:textSize="15dp"
+                 android:textStyle="italic" />
+            
+        </LinearLayout>
+        
+        <View
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="@android:color/transparent"/>
+      
+</LinearLayout>
+<!-- 5 end -->
+
+
+</LinearLayout>   
+</ScrollView>

@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.maverick.foody.DishDetails" >
+
+    <TextView
+        android:id="@+id/dishitemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="French Fries" />
+  
+    
+    <!-- basic price -->
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="15dp">
+    
+       <TextView
+        android:id="@+id/textitemprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:textSize="20sp"
+        android:text="Basic Price" />
+    
+    <TextView
+        android:id="@+id/itemprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:textSize="35sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="₹ 50" />
+    
+
+    </LinearLayout>
+    
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="15dp">
+    
+       <TextView
+        android:id="@+id/textquantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_weight="0.7"
+        android:text="Quantity" />
+    
+
+    
+    <ImageButton
+        android:id="@+id/additem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:background="@drawable/roundringbutton"
+        android:onClick="addqty"
+        android:src="@drawable/add" />
+    
+    
+
+    <TextView
+        android:id="@+id/itemqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_weight="0.1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:onClick="enterqty"
+        android:text="1" />
+    
+    <ImageButton
+        android:id="@+id/subtractitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:background="@drawable/roundringbutton"
+        android:onClick="subtractqty"
+        android:src="@drawable/subtract" />
+
+    </LinearLayout>
+
+   
+    <!-- basic price -->
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_margin="5dp">
+    
+   <Button
+       android:id="@+id/buttonaddtocart"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="ADD TO CART" />
+   
+   </LinearLayout>
+    
+</LinearLayout>

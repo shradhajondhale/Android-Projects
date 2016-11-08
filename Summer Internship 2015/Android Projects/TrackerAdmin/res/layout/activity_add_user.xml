@@ -1,0 +1,276 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center">
+   
+
+      <!-- blank -->
+  <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="#00C0DE">
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="#ffffff"
+           android:gravity="center"
+          android:textSize="35sp"
+          android:text="ADD USER" />
+      
+       </LinearLayout>
+       
+<!--1 -->
+
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+      
+       
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="0.3"
+    android:gravity="center">
+      
+        <EditText
+           android:id="@+id/editTextusername"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:hint="Username"
+           android:layout_margin="5dp"
+           android:background="@drawable/editext"
+           android:padding="10dp"
+           android:textSize="15dp"
+           android:fontFamily="sans-serif-light"
+           android:inputType="text" />
+
+      
+        
+        <EditText
+           android:id="@+id/editTextcontactno"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:hint="Contact No."
+           android:layout_margin="5dp"
+           android:textSize="15dp"
+           android:background="@drawable/editext"
+           android:padding="10dp"
+           android:fontFamily="sans-serif-light"
+           android:inputType="phone" />
+        
+  </LinearLayout>
+  
+  <FrameLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="0.7"
+    android:gravity="center">
+      
+  
+    <ImageView
+            android:id="@+id/addphoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/editphoto" 
+            android:background="@drawable/photobackground"
+            android:onClick="loadImagefromGallery"/>
+    
+   
+ </FrameLayout>
+ </LinearLayout>
+                
+       <EditText
+           
+            android:hint="Password"
+            android:inputType="textPassword" 
+            android:id="@+id/editTextpassword"
+            android:background="@drawable/editext"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+           android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+       
+        <EditText
+           
+            android:hint="Confirm Password"
+            android:inputType="textPassword" 
+            android:id="@+id/editTextconpassword"
+            android:background="@drawable/editext"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+           android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        
+        <EditText
+           android:id="@+id/editTextdesignation"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:hint="Designation"
+           android:layout_margin="5dp"
+           android:textSize="15dp"
+           android:background="@drawable/editext"
+           android:padding="10dp"
+           android:fontFamily="sans-serif-light"
+           android:inputType="text" />
+        
+        
+        <EditText
+           android:id="@+id/editTextempid"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:hint="Employee ID"
+           android:layout_margin="5dp"
+           android:textSize="15dp"
+           android:background="@drawable/editext"
+           android:padding="10dp"
+           android:fontFamily="sans-serif-light"
+           android:inputType="text" />
+        
+        <EditText
+           android:id="@+id/editTextplace"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:hint="Place"
+           android:layout_margin="5dp"
+           android:textSize="15dp"
+           android:background="@drawable/editext"
+           android:padding="10dp"
+           android:fontFamily="sans-serif-light"
+           android:inputType="text" />
+        
+            
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:onClick="starttimepicker"
+    android:layout_gravity="center">
+  
+       <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="0.5"
+         android:gravity="center">
+        
+        <TextView
+           android:id="@+id/textstarttime"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="Start Time"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-light"/>
+        
+         <TextView
+           android:id="@+id/starttime"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="10 hrs"
+           android:fontFamily="sans-serif-light"/>
+        
+        </LinearLayout>
+        
+        <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="0.5"
+         android:onClick="endtimepicker"
+         android:gravity="center">
+        
+        <TextView
+           android:id="@+id/textendtime"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="End Time"
+           android:textStyle="bold"
+           android:gravity="center"
+           android:fontFamily="sans-serif-light"/>
+        
+         <TextView
+           android:id="@+id/endtime"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="17 hrs"
+           android:gravity="center"
+           android:fontFamily="sans-serif-light"/>
+        
+        </LinearLayout>
+        
+
+   </LinearLayout>
+       
+</LinearLayout>
+ 
+
+
+          
+
+  <!-- 5 -->
+  
+<RelativeLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="15dp">
+
+ 
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/buttonselector"
+           android:onClick="ok"
+           android:gravity="center"
+           android:paddingLeft="20dp"
+           android:paddingRight="20dp"
+           android:text="OK"
+           android:textColor="#ffffff"
+           android:textSize="15sp" />
+   
+ </RelativeLayout>
+  
+         
+         
+ 
+
+          
+</LinearLayout>
+
+
+</ScrollView>
